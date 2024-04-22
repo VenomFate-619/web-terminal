@@ -9,7 +9,7 @@ const handleShellCreation = (container, ws) => {
       AttachStdout: true,
       AttachStderr: true,
       Tty: true,
-      User: "aman",
+      User: "root",
     },
     (err, exec) => {
       exec.start(
